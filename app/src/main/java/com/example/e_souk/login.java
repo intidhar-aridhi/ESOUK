@@ -16,14 +16,14 @@ public class login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        name = (EditText)findViewById(R.id.nom);
-        password = (EditText)findViewById(R.id.pw);
-       log = (Button)findViewById(R.id.sigin);
+        name = (EditText)findViewById(R.id.edt_nom);
+        password = (EditText)findViewById(R.id.edt_password);
+       log = (Button)findViewById(R.id.btn_sigin);
 
         log.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(((name.getText().toString()).equals("client"))&((password.getText().toString()).equals("client123")))
+                if(((name.getText().toString()).equals("essouk"))&((password.getText().toString()).equals("essouk123")))
 
                 {
                     //rediriger vers la page d'accueil

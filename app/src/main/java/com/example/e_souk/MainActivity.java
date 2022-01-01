@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        discountRecyclerView = findViewById(R.id.list1);
-        categoryRecyclerView = findViewById(R.id.list2);
+        discountRecyclerView = findViewById(R.id.rcv_listproducts);
+        categoryRecyclerView = findViewById(R.id.rcv_listcategoeies);
         discountedProductsList = new ArrayList<>();
 
         discountedProductsList.add(new discountedProducts(1, R.drawable.discountberry));
