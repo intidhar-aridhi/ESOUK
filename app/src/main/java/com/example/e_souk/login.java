@@ -26,8 +26,7 @@ public class login extends AppCompatActivity {
                 if(((name.getText().toString()).equals("essouk"))&((password.getText().toString()).equals("essouk123")))
 
                 {
-                    //rediriger vers la page d'accueil
-                    Intent intent = new Intent(login.this, MainActivity.class);
+                    Intent intent = new Intent(login.this, CommandProduct.class);
                     startActivity(intent);
                     finish();
                 }

@@ -2,12 +2,13 @@
     <string name="app_name">E-Souk</string>
     <string name="esouk">ESOUK</string>
     <string name="sign_in">Sign In</string>
-    <string name="name">Nom</string>
-    <string name="password">Mot de passe</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
 
     <string name="sign_up">Sign Up</string>
 
-    <string name="recommended_products">Recommended Products</string>
-    <string name="all_categories">All Categories</string>
+    <string name="produits_recommandés">Recommended Products</string>
+    <string name="Categories">Categories</string>
+    <string name="Produits">Products</string>
 
 </resources>

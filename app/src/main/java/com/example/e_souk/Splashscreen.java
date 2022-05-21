@@ -15,12 +15,12 @@ public class Splashscreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreen);
-        // rediriger vers la page principale "mainactivity" apres 3 secondes.
+        // rediriger vers la page d'accueil apres 3 secondes.
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                //demarrer une page
-                Intent intent = new Intent(getApplicationContext(),login.class);
+                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(intent);
                 finish();
             }

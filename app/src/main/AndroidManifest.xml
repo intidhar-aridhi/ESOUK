@@ -4,19 +4,21 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:largeHeap="true"
         android:theme="@style/Theme.ESouk">
-        <activity android:name=".login"></activity>
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".CommandProduct"></activity>
+        <activity android:name=".LCartActivity" />
+        <activity android:name=".adapter.DetailProduct" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity" />
         <activity
-            android:exported="true"
-            android:name=".Splashscreen">
-
+            android:name=".Splashscreen"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

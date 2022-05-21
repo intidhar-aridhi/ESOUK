@@ -11,7 +11,7 @@
       android:id="@+id/imgv_image"
       android:layout_width="440dp"
       android:layout_height="306dp"
-      android:src="@drawable/fruits"
+      android:src="@drawable/image_spalashscreen"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="1.0"
